@@ -33,7 +33,7 @@ div {
     background-size: cover;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 550px) {
     .head div{ 
         background-image: url("https://source.unsplash.com/random") no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -44,6 +44,7 @@ div {
         padding-top: 260px;
         font-size: 50px;
     }
+}
 
 .sec {
     font-size: 65px;
@@ -110,6 +111,13 @@ div img{
     margin:10px auto;
     padding: 20px 20px;
 }
+
+@media only screen and (max-width: 550px) {
+    #itemn {
+        width: 100vw;
+    }
+}
+
 
 
 /* कैसा होगा आपका वर्ष यदि वर्ष का अंक है १ || अंक ज्योतिष || अंक बतायेंगे  कैसा होगा आपका वर्ष।
