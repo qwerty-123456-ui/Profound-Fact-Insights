@@ -110,9 +110,37 @@ div img{
 }
 
 #itemn {
-    margin:10px auto;
-    padding: 20px 20px;
+    margin:20px auto;
+    padding: 0px 0px;
+    box-shadow: 3px 3px 2px 1px rgb(156, 0, 0) ;
+    /* border-radius: 20px; */
 }
+    #itemn:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 5px 5px 8px 3px rgb(134, 62, 77) ;
+        top: -6px;
+        border: 1px solid #cccccc;
+        background-color: white;
+    }
+
+    #itemn:before {
+        content: "";
+        position: absolute;
+        z-index: -5;
+        top: -16px;
+        right: -16px;
+        background: #00838d;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(2);
+        transform-origin: 50% 50%;
+        transition: transform 0.15s ease-out;
+    }
+
+    #itemn:hover:before {
+        transform: scale(2.15);
+    }
 
 .foot {
     text-align: center;
