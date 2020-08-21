@@ -11,14 +11,14 @@ function typeWriter() {
     // ts+=speed;
   }
   else {
-    i=0;
+    i = 0;
     document.getElementById("demo").innerHTML = '';
-    setTimeout(typeWriter, speed+100);
+    setTimeout(typeWriter, speed + 100);
   }
 }
 
 window.onload = function () {
-    setTimeout(typeWriter,50);
+  setTimeout(typeWriter, 50);
 }
 
 
