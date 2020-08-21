@@ -2,7 +2,7 @@
 # PROFOUND FACT INSIGHTS
 
 ## CLICK ON THE IMAGE TO VISIT THE WEBSITE
-[![image](ss.png)]()
+[![image](ss.png)](https://qwerty-123456-ui.github.io/Profound-Fact-Insights/)
 
 ![GitHub stars](https://img.shields.io/github/stars/qwerty-123456-ui/Profound-Fact-Insights?style=social)           ![GitHub forks](https://img.shields.io/github/forks/qwerty-123456-ui/Profound-Fact-Insights?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/qwerty-123456-ui/Profound-Fact-Insights?style=social) ![GitHub followers](https://img.shields.io/github/followers/qwerty-123456-ui?style=social)
 
